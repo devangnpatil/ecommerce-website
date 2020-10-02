@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN Shoping",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devangnpatil/ecommerce-website.git"
+  },
+  "author": "Devang Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devangnpatil/ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/devangnpatil/ecommerce-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
