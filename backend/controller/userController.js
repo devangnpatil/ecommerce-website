@@ -71,7 +71,6 @@ const getUserProfile = asyncHandler(async (req, res) => {
       email: user.email,
       isAdmin: user.isAdmin,
     });
-    res.send('Success');
   } else {
     res.status(401);
     throw new Error('User Not Found');
