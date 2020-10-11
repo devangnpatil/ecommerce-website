@@ -11,7 +11,7 @@ import {
   ORDER_PAY_RESET,
 } from '../constants/orderConstant';
 
-export const orderCreateReducer = (state = { order: [] }, action) => {
+export const orderCreateReducer = (state = { }, action) => {
   switch (action.type) {
     case ORDER_CREATE_REQUEST:
       return {
@@ -34,7 +34,7 @@ export const orderCreateReducer = (state = { order: [] }, action) => {
 };
 
 export const orderDetailsReducer = (
-  state = { loading: true, order: [], shippingAddress: {} },
+  state = { loading: true, orderItems: [], shippingAddress: {} },
   action
 ) => {
   switch (action.type) {
